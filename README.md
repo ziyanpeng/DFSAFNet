@@ -54,4 +54,19 @@ cd DFSAFNet
 
 pip install -r requirements.txt
 
+---
+
+## ⚙️ Installation
+
+Create the environment and install dependencies:
+
+```bash
+conda create -n dfsafnet python=3.10
+conda activate dfsafnet
+
+git clone https://github.com/ziyanpeng/DFSAFNet.git
+cd DFSAFNet
+
+pip install -r requirements.txt
+
 
