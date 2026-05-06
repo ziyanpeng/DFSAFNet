@@ -1,5 +1,4 @@
-# Cross-Domain Alignment Fusion for Robust Remote Sensing Image Semantic Segmentation
-# DFSAFNet: Dual-domain Frequency-Spatial Attention Fusion Network for Semantic Segmentation
+# DCross-Domain Alignment Fusion for Robust Remote Sensing Image Semantic Segmentation
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)]()
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)]()
@@ -18,7 +17,7 @@ We propose **DFSAFNet**, which integrates spatial-domain features and frequency-
 
 ## 🧠 Network Architecture
 
-![framework](figures/framework.png)
+![framework](DFSAFNet.png)
 
 Key components:
 
