@@ -52,7 +52,6 @@ conda activate dfsafnet
 It should be noted that:PyTorch == 2.2.2; CUDA == 11.8
 git clone https://github.com/ziyanpeng/DFSAFNet.git
 cd DFSAFNet
-
 pip install -r requirements.txt
 ```
 
