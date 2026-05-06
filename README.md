@@ -51,3 +51,23 @@ git clone https://github.com/ziyanpeng/DFSAFNet.git
 cd DFSAFNet
 
 pip install -r requirements.txt
+
+## 🚀 Training
+
+To train DFSAFNet on the target dataset, run:
+
+```bash
+python train.py --config configs/potsdam.yaml
+
+
+---
+
+# ✅ Testing（测试 / 推理）
+
+```markdown
+## 🔎 Testing
+
+To evaluate the trained model:
+
+```bash
+python test.py --config configs/potsdam.yaml --checkpoint checkpoints/best.pth
