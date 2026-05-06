@@ -60,9 +60,12 @@ pip install -r requirements.txt
 ## 🚀 Training
 
 To train DFSAFNet on the target dataset:
-`python train.py --config configs/potsdam.yaml`
 
 ```bash
+# potsdam
+python train.py --config configs/potsdam.yaml
+
+# Vaihingen
 python train.py --config configs/vaihingen.yaml
 
 # LoveDA
