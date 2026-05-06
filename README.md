@@ -117,13 +117,11 @@ If you find this work useful for your research, please consider citing:
 
 ```bibtex
 @article{peng2025dfsafnet,
-  title={DFSAFNet: Dual-Frequency Spatial Attention Fusion Network for Remote Sensing Image Semantic Segmentation},
-  author={Peng, Ziyan and XXX, XXX and XXX, XXX},
-  journal={XXX Journal},
-  year={2025},
-  volume={XX},
-  number={XX},
-  pages={XXX--XXX}
+  title={Cross-Domain Alignment Fusion for Robust Remote Sensing Image Semantic Segmentation},
+  author={Zhu, Weidong and Peng, Bangyu and Luan, Kuifeng and Zhu, Xiaolong and Qun, Qi},
+  journal={The Visual Computer},
+  year={2026},
+  publisher={Springer}
 }
 ```
 
