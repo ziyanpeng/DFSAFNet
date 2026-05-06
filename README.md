@@ -49,7 +49,7 @@ Create the environment and install dependencies:
 ```bash
 conda create -n dfsafnet python=3.10
 conda activate dfsafnet
-
+It should be noted that:PyTorch == 2.2.2; CUDA == 11.8
 git clone https://github.com/ziyanpeng/DFSAFNet.git
 cd DFSAFNet
 
