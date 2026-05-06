@@ -43,6 +43,8 @@ Please download datasets from official websites.
 
 ## ⚙️ Installation
 
+Create the environment and install dependencies:
+
 ```bash
 conda create -n dfsafnet python=3.10
 conda activate dfsafnet
@@ -51,25 +53,38 @@ git clone https://github.com/ziyanpeng/DFSAFNet.git
 cd DFSAFNet
 
 pip install -r requirements.txt
+🚀 Training
 
----
+To train DFSAFNet on the target dataset:
 
-## 🚀 Training
-
-To train DFSAFNet on the target dataset, run:
-
-```bash
 python train.py --config configs/potsdam.yaml
 
+Train on other datasets:
 
----
+# Vaihingen
+python train.py --config configs/vaihingen.yaml
 
-# ✅ Testing（测试 / 推理）
+# LoveDA
+python train.py --config configs/loveda.yaml
 
-```markdown
-## 🔎 Testing
+# UAVid
+python train.py --config configs/uavid.yaml
+
+Multi-GPU training:
+
+CUDA_VISIBLE_DEVICES=0,1 python train.py --config configs/potsdam.yaml
+🔎 Testing
 
 To evaluate the trained model:
 
-```bash
-python test.py --config configs/potsdam.yaml --checkpoint checkpoints/best.pth
+python test.py \
+    --config configs/potsdam.yaml \
+    --checkpoint checkpoints/best.pth
+
+Test on other datasets:
+
+python test.py --config configs/vaihingen.yaml --checkpoint checkpoints/best.pth
+python test.py --config configs/loveda.yaml --checkpoint checkpoints/best.pth
+python test.py --config configs/uavid.yaml --checkpoint checkpoints/best.pth
+
+The evaluation results will be saved in the outputs/ directory.
