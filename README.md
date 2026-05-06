@@ -80,7 +80,7 @@ python DFSAFNet/train_supervision.py --DFSAFNet/config/uavid/DFSAFNet.py
 
 ## 🚀 Testing
 
-To evaluate a trained model:Select a different config file
+To evaluate a trained model:Select a different config file,Set the optimal model for testing in config
 
 ```bash
 # potsdam
@@ -104,12 +104,28 @@ The quantitative results of **DFSAFNet** on benchmark datasets are shown below.
 
 | Dataset | mIoU (%) | Mean F1 (%) | OA (%) |
 |--------|---------|------------|-------|
-| Vaihingen | 82.70 | 90.31 | 92.97 |
-| Potsdam | 86.09 | 92.32 | 91.29 |
-| LoveDA | XX.XX | XX.XX | XX.XX |
-| UAVid | XX.XX | XX.XX | XX.XX |
+| Vaihingen | 84.68 | 91.52 | 93.42 |
+| Potsdam | 87.83 | 93.40 | 92.04 |
+| LoveDA | 57.62 | 71.85 | - |
+| UAVid | 73.78| 84.36 | - |
 
 
 ---
 
+## 📖 Citation
+If you find this work useful for your research, please consider citing:
+
+```bibtex
+@article{peng2025dfsafnet,
+  title={DFSAFNet: Dual-Frequency Spatial Attention Fusion Network for Remote Sensing Image Semantic Segmentation},
+  author={Peng, Ziyan and XXX, XXX and XXX, XXX},
+  journal={XXX Journal},
+  year={2025},
+  volume={XX},
+  number={XX},
+  pages={XXX--XXX}
+}
+```
+
+---
 
