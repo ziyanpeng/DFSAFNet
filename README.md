@@ -38,6 +38,7 @@ We evaluate our method on:
 - **UAVid**
 
 Please download datasets from official websites.
+Data set preprocessing can refer to[GeoSeg](https://github.com/WangLibo1995/GeoSeg "悬停显示")
 
 ---
 
