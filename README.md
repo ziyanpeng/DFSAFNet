@@ -126,3 +126,22 @@ If you find this work useful for your research, please consider citing:
 
 ---
 
+## 🙏 Acknowledgements
+
+This work was supported by the contributors and open-source community.  
+We sincerely thank the authors of the following excellent open-source projects, which greatly facilitated this research:
+
+- PyTorch
+- MMSegmentation
+- timm
+- GeoSeg
+
+We also appreciate the providers of public remote sensing datasets, including:
+
+- ISPRS Vaihingen Dataset
+- ISPRS Potsdam Dataset
+- LoveDA Dataset
+- UAVid Dataset
+
+---
+
