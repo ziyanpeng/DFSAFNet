@@ -59,20 +59,40 @@ pip install -r requirements.txt
 
 ## 🚀 Training
 
-To train DFSAFNet on the target dataset:
+To train DFSAFNet on the target dataset:Select a different config file
 
 ```bash
 # potsdam
-python train.py --config configs/potsdam.yaml
+python DFSAFNet/train_supervision.py --DFSAFNet/config/potsdam/DFSAFNet.py
 
 # Vaihingen
-python train.py --config configs/vaihingen.yaml
+python DFSAFNet/train_supervision.py --DFSAFNet/config/vaihingen/DFSAFNet.py
 
 # LoveDA
-python train.py --config configs/loveda.yaml
+python DFSAFNet/train_supervision.py --DFSAFNet/config/loveda/DFSAFNet.py
 
 # UAVid
-python train.py --config configs/uavid.yaml
+python DFSAFNet/train_supervision.py --DFSAFNet/config/uavid/DFSAFNet.py
+```
+
+---
+
+## 🚀 Testing
+
+To evaluate a trained model:Select a different config file
+
+```bash
+# potsdam
+python DFSAFNet/potsdam_test.py --DFSAFNet/config/potsdam/DFSAFNet.py
+
+# Vaihingen
+python DFSAFNet/vaihingen_test.py --DFSAFNet/config/vaihingen/DFSAFNet.py
+
+# LoveDA
+python DFSAFNet/loveda_test.py --DFSAFNet/config/loveda/DFSAFNet.py
+
+# UAVid
+python DFSAFNet/uavid_test.py --DFSAFNet/config/uavid/DFSAFNet.py
 ```
 
 ---
