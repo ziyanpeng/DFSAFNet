@@ -52,6 +52,8 @@ cd DFSAFNet
 
 pip install -r requirements.txt
 
+---
+
 ## 🚀 Training
 
 To train DFSAFNet on the target dataset, run:
