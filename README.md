@@ -53,6 +53,7 @@ git clone https://github.com/ziyanpeng/DFSAFNet.git
 cd DFSAFNet
 
 pip install -r requirements.txt
+```
 
 ---
 
@@ -68,5 +69,8 @@ git clone https://github.com/ziyanpeng/DFSAFNet.git
 cd DFSAFNet
 
 pip install -r requirements.txt
+```
+
+---
 
 
