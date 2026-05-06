@@ -57,18 +57,19 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Installation
+## 🚀 Training
 
-Create the environment and install dependencies:
+To train DFSAFNet on the target dataset:
+`python train.py --config configs/potsdam.yaml`
 
 ```bash
-conda create -n dfsafnet python=3.10
-conda activate dfsafnet
+python train.py --config configs/vaihingen.yaml
 
-git clone https://github.com/ziyanpeng/DFSAFNet.git
-cd DFSAFNet
+# LoveDA
+python train.py --config configs/loveda.yaml
 
-pip install -r requirements.txt
+# UAVid
+python train.py --config configs/uavid.yaml
 ```
 
 ---
