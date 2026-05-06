@@ -38,7 +38,7 @@ We evaluate our method on:
 - **UAVid**
 
 Please download datasets from official websites.
-Data set preprocessing can refer to[GeoSeg](https://github.com/WangLibo1995/GeoSeg "悬停显示")
+Data set preprocessing can refer to[GeoSeg](https://github.com/WangLibo1995/GeoSeg )
 
 ---
 
@@ -95,6 +95,20 @@ python DFSAFNet/loveda_test.py --DFSAFNet/config/loveda/DFSAFNet.py
 # UAVid
 python DFSAFNet/uavid_test.py --DFSAFNet/config/uavid/DFSAFNet.py
 ```
+
+---
+
+## 📊 Reproduction Results
+
+The quantitative results of **DFSAFNet** on benchmark datasets are shown below.
+
+| Dataset | mIoU (%) | Mean F1 (%) | OA (%) |
+|--------|---------|------------|-------|
+| Vaihingen | 82.70 | 90.31 | 92.97 |
+| Potsdam | 86.09 | 92.32 | 91.29 |
+| LoveDA | XX.XX | XX.XX | XX.XX |
+| UAVid | XX.XX | XX.XX | XX.XX |
+
 
 ---
 
