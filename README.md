@@ -116,11 +116,11 @@ If you find this work useful for your research, please consider citing:
 
 ```bibtex
 @article{peng2025dfsafnet,
-  title={Cross-Domain Alignment Fusion for Robust Remote Sensing Image Semantic Segmentation},
+  title={DFSAFNet: A Dual-Frequency Domain and Spatial Feature Cross-Domain Alignment Fusion Network for Semantic Segmentation},
   author={Zhu, Weidong and Peng, Bangyu and Luan, Kuifeng and Zhu, Xiaolong and Qun, Qi},
-  journal={The Visual Computer},
+  journal={Journal of Applied Remote Sensing},
   year={2026},
-  publisher={Springer}
+  publisher={The International Society for Optics and Photonics}
 }
 ```
 
